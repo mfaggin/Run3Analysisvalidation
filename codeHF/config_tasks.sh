@@ -38,7 +38,7 @@ DOO2_CAND_3PRONG=0  # hf-candidate-creator-3prong
 DOO2_SEL_D0=0       # hf-d0-candidate-selector
 DOO2_SEL_LC=0       # hf-lc-candidate-selector
 DOO2_SEL_JPSI=0     # hf-jpsi-toee-candidate-selector
-DOO2_SEL_XIC=1       # hf-xic-candidate-selector
+DOO2_SEL_XIC=0      # hf-xic-candidate-selector
 # User tasks
 DOO2_TASK_D0=1      # hf-task-d0
 DOO2_TASK_DPLUS=0   # hf-task-dplus
