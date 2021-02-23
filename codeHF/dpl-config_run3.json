@@ -52,7 +52,7 @@
             "mInvMassLcToPKPiMin": "1.98",
             "mInvMassLcToPKPiMax": "2.58",
             "mCPALcToPKPiMin": "-2.",
-            "mDecLenLcToPKPiMin": "0.", 
+            "mDecLenLcToPKPiMin": "0.",
             "mPtDsToPiKKMin": "1.5",
             "mInvMassDsToPiKKMin": "1.74",
             "mInvMassDsToPiKKMax": "2.18",
@@ -99,10 +99,10 @@
     "hf-lc-candidate-selector": {
         "d_pTCandMin": "0.",
         "d_pTCandMax": "36.",
-        "d_pidTPCMinpT": "0.15",
+        "d_pidTPCMinpT": "0.1",
         "d_pidTPCMaxpT": "1.0",
         "d_pidTOFMinpT": "0.5",
-        "d_pidTOFMaxpT": "4.0",
+        "d_pidTOFMaxpT": "2.0",
         "d_TPCNClsFindablePIDCut": "70.",
         "d_nSigmaTPC": "3.",
         "d_nSigmaTPCCombined": "5.",
@@ -132,12 +132,12 @@
         "d_nSigmaTOFCombined": "5."
     },
     "hf-task-d0": {
-        "cutEtaCandMax": "-1.",
+        "cutYCandMax": "0.8",
         "d_selectionFlagD0": "0",
         "d_selectionFlagD0bar": "0"
     },
     "hf-task-d0-mc": {
-        "cutEtaCandMax": "-1.",
+        "cutYCandMax": "0.8",
         "d_selectionFlagD0": "0",
         "d_selectionFlagD0bar": "0"
     },
@@ -145,7 +145,7 @@
         "d_selectionFlagDPlus": "0"
     },
     "hf-task-lc": {
-        "cutEtaCandMax": "-1.",
+        "cutYCandMax": "0.8",
         "d_selectionFlagLc": "0"
     },
     "hf-task-xic": {
@@ -153,15 +153,15 @@
         "d_selectionFlagXic": "0"
     },
     "hf-task-lc-mc": {
-        "cutEtaCandMax": "-1.",
+        "cutYCandMax": "0.8",
         "d_selectionFlagLc": "0"
     },
     "hf-task-jpsi": {
-        "cutEtaCandMax": "-1.",
+        "cutYCandMax": "0.8",
         "d_selectionFlagJpsi": "0"
     },
     "hf-task-jpsi-mc": {
-        "cutEtaCandMax": "-1.",
+        "cutYCandMax": "0.8",
         "d_selectionFlagJpsi": "0"
     },
     "internal-dpl-aod-writer": {
